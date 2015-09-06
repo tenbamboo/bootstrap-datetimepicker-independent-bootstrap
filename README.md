@@ -1,4 +1,7 @@
 # bootstrap-datetimepicker-independent-bootstrap
-https://github.com/smalot/bootstrap-datetimepicker
+base on https://github.com/smalot/bootstrap-datetimepicker
+
+independent datetimepicker
+use font-awesome
 
 

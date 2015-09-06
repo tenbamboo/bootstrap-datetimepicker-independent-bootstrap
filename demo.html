@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+   <script src="./js/jquery.js"></script>
+  <script src="./js/bootstrap-datetimepicker.js"></script>
+  <script src="./js/locales/bootstrap-datetimepicker.zh-CN.js"></script>
+
+
+  <link href="./css/bootstrap-datetimepicker.min.css" rel="stylesheet" type="text/css"/>
+  <link href="./css/droplist.css" rel="stylesheet" type="text/css"/>
+  <link href="./font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+</head>
+
+<body>
+<input type="text" id="date" value="">
+  <script>
+   $("#date").datetimepicker({
+        format: "yyyy-mm",
+        endDate:new Date(new Date().getFullYear()+"-"+(new Date().getMonth())),	
+        initialDate:new Date(new Date().getFullYear()+"-"+(new Date().getMonth())),	
+        fontAwesome:true,
+        autoclose: true,
+        startView:3,
+        minView:3,
+        language:"zh-CN",
+        todayHighlight:false,
+    });
+  </script>
+</body>
+
+</html>
